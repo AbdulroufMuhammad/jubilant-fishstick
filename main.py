@@ -6,7 +6,7 @@ import os
 
 app = FastAPI()
 
-load_dotenv(dotenv_path="upload/.env")
+load_dotenv()
 
 cloudinary.config(
     cloud_name="dl581kkmn",
